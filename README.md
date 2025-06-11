@@ -1,13 +1,50 @@
-# SWE INTERVIEW TEST 
-THIS IS TO TEST YOUR SKILLS TO MEET OUR APP DEVELOPMENT REQUIREMENTS
+## How to Run the Application
 
-1. Clone this repo to your local machine.
-2. Read `Assignment Requirements` carefully and follow it.
-4. Please commit your entire code to `your own Github repository` 
-5. On your repo, please add step-by-step instructions on how to launch (for both the Backend and Frontend) to the `README.md`
-6. Share your repo link with us via email.
+### Prerequisites
 
-HAPPY CODING! </br>
-A Round Entertainment
-# take-home-test
-# take-home-test
+- Node.js (v16 or higher recommended)
+- npm (comes with Node.js)
+
+### 1. Install Dependencies
+
+From the root of the project, run:
+
+```bash
+cd StarterCode/backend
+npm install
+cd ../frontend
+npm install
+```
+
+### 2. Start the Backend
+
+In a terminal, run:
+
+```bash
+cd StarterCode/backend
+node index.js
+```
+
+The backend will start on [http://localhost:5001](http://localhost:5001)
+
+### 3. Start the Frontend
+
+Open a new terminal and run:
+
+```bash
+cd StarterCode/frontend
+npm start
+```
+
+The frontend will start on [http://localhost:3001](http://localhost:3001)
+
+### 4. Open the App
+
+Visit [http://localhost:3001](http://localhost:3001) in your browser. You should see the product list UI.
+
+---
+
+**Note:**
+
+- The backend must be running before the frontend for the app to work correctly.
+- If you change ports, update the API URL in `StarterCode/frontend/src/App/Page/ProductList.jsx` accordingly.
